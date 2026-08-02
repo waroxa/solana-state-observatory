@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An autonomous, keyless observatory for Solana network health, validators and economic activity.">
+  <meta name="theme-color" content="#07110f">
+  <title>Solana State Observatory</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to dashboard</a>
+  <a class="skip-link" href="#nav">Skip to dashboard navigation</a>
+  <div class="atmosphere" aria-hidden="true">
+    <span class="orb orb-a"></span><span class="orb orb-b"></span><span class="grid-glow"></span>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Solana State Observatory home">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span><strong>State Observatory</strong><small>SOLANA / MAINNET</small></span>
+    </a>
+    <nav id="nav" class="view-nav" aria-label="Dashboard views">
+      <ul>
+        <li><button aria-label="Show overview" class="nav-chip is-active" type="button" data-view="all">Overview</button></li>
+        <li><button aria-label="Show network metrics" class="nav-chip" type="button" data-view="network">Network</button></li>
+        <li><button aria-label="Show validator metrics" class="nav-chip" type="button" data-view="validators">Validators</button></li>
+        <li><button aria-label="Show economic metrics" class="nav-chip" type="button" data-view="economics">Economics</button></li>
+      </ul>
+    </nav>
+    <div class="top-actions">
+      <span class="live-pill"><i></i><span id="live-label">Loading</span></span>
+      <button id="refresh-button" class="icon-button" type="button" aria-label="Refresh dashboard data" title="Refresh data">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8.1 8.1 0 0 0-14.7-4.7L3 9m0-5v5h5M4 13a8.1 8.1 0 0 0 14.7 4.7L21 15m0 5v-5h-5"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="shell" tabindex="-1">
+    <section class="hero" data-section="all network economics validators">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Autonomous ecosystem intelligence</p>
+        <h1>One clear signal from a noisy network.</h1>
+        <p class="hero-intro">Live Solana health, validator participation and economic activity—collected without API keys, scored with transparent methods, and exported for humans and machines.</p>
+        <div class="hero-meta">
+          <span>Last observation <strong id="generated-at">—</strong></span>
+          <span>Coverage <strong id="coverage-label">—</strong></span>
+          <span>Refresh cadence <strong>30 min</strong></span>
+        </div>
+      </div>
+      <article class="health-orbit" aria-labelledby="health-title">
+        <div class="orbit-ring" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="score-dial">
+          <svg viewBox="0 0 180 180" role="img" aria-labelledby="health-title health-desc">
+            <circle class="dial-track" cx="90" cy="90" r="72"></circle>
+            <circle id="health-arc" class="dial-value" cx="90" cy="90" r="72"></circle>
+          </svg>
+          <div class="score-copy"><span id="health-score">—</span><small>/ 100</small></div>
+        </div>
+        <div class="health-caption"><span id="health-title">Network posture</span><strong id="health-status">Loading</strong><small id="health-desc">Computed from four diagnostic dimensions</small></div>
+      </article>
+    </section>
+
+    <section class="signal-strip" aria-label="Current network signals" data-section="all network">
+      <article class="signal-card accent-mint">
+        <div class="signal-head"><span>Throughput</span><i>RPC sample</i></div>
+        <strong id="metric-tps">—</strong><small>transactions / second</small>
+        <div class="micro-track"><span id="tps-track"></span></div>
+      </article>
+      <article class="signal-card accent-cyan">
+        <div class="signal-head"><span>Slot time</span><i>lower is better</i></div>
+        <strong id="metric-slot-time">—</strong><small>seconds / slot</small>
+        <div class="micro-track"><span id="slot-track"></span></div>
+      </article>
+      <article class="signal-card accent-violet">
+        <div class="signal-head"><span>Epoch</span><i id="metric-epoch">—</i></div>
+        <strong id="metric-epoch-progress">—</strong><small>completion</small>
+        <div class="micro-track"><span id="epoch-track"></span></div>
+      </article>
+      <article class="signal-card accent-amber">
+        <div class="signal-head"><span>Delinquent stake</span><i id="validator-count">—</i></div>
+        <strong id="metric-delinquent">—</strong><small>of activated stake</small>
+        <div class="micro-track"><span id="delinquent-track"></span></div>
+      </article>
+    </section>
+
+    <section class="dashboard-grid" data-section="all network economics">
+      <article class="panel panel-wide trend-panel">
+        <div class="panel-heading">
+          <div><p class="kicker">Temporal lens</p><h2>Network & market telemetry</h2></div>
+          <div class="segmented" role="group" aria-label="Select telemetry chart">
+            <button aria-label="Chart transactions per second" type="button" class="is-active" data-chart="tps">TPS</button>
+            <button aria-label="Chart SOL price" type="button" data-chart="solPriceUsd">SOL price</button>
+            <button aria-label="Chart total value locked" type="button" data-chart="tvlUsd">TVL</button>
+          </div>
+        </div>
+        <div class="chart-summary"><strong id="chart-current">—</strong><span id="chart-delta">Waiting for history</span></div>
+        <div id="history-chart" class="line-chart" role="img" aria-label="Historical telemetry chart"></div>
+        <div class="chart-axis" aria-hidden="true"><span id="axis-start">—</span><span id="axis-mid">—</span><span id="axis-end">Now</span></div>
+        <details class="data-alternative"><summary>View chart data as text</summary><div id="chart-data-table"></div></details>
+      </article>
+
+      <aside class="panel anomaly-panel">
+        <div class="panel-heading"><div><p class="kicker">Signal engine</p><h2>Anomaly register</h2></div><span id="anomaly-count" class="count-badge">0</span></div>
+        <div id="anomaly-list" class="anomaly-list" aria-live="polite"></div>
+        <p class="panel-note">Compared with the rolling median of up to 48 observations and explicit safety thresholds.</p>
+      </aside>
+    </section>
+
+    <section class="section-block" data-section="all economics">
+      <div class="section-heading"><div><p class="eyebrow"><span></span> Economic pulse</p><h2>Capital, liquidity and network demand</h2></div><p>Independent public datasets, normalized into one observation layer.</p></div>
+      <div class="economics-grid">
+        <article class="metric-card primary-metric"><span>SOL / USD</span><strong id="sol-price">—</strong><em id="sol-change">—</em><small id="sol-updated">source timestamp —</small></article>
+        <article class="metric-card"><span>DeFi TVL</span><strong id="tvl">—</strong><em>DeFiLlama</em><small>capital secured across protocols</small></article>
+        <article class="metric-card"><span>Stablecoin supply</span><strong id="stablecoins">—</strong><em>DeFiLlama</em><small>circulating on Solana</small></article>
+        <article class="metric-card"><span>DEX volume · 24h</span><strong id="dex-volume">—</strong><em id="dex-change">—</em><small>aggregate decentralized exchange flow</small></article>
+        <article class="metric-card"><span>Protocol fees · 24h</span><strong id="fees">—</strong><em id="fees-change">—</em><small>economic demand proxy</small></article>
+        <article class="metric-card"><span>Circulating supply</span><strong id="circulating">—</strong><em>SOL</em><small>confirmed RPC supply</small></article>
+      </div>
+    </section>
+
+    <section class="dashboard-grid validator-section" data-section="all validators">
+      <article class="panel panel-wide">
+        <div class="panel-heading"><div><p class="kicker">Stake distribution</p><h2>Top validators by activated stake</h2></div><span class="text-chip" id="active-validators">— active</span></div>
+        <div id="validator-bars" class="validator-bars"></div>
+      </article>
+      <article class="panel score-panel">
+        <div class="panel-heading"><div><p class="kicker">Diagnostic model</p><h2>Health components</h2></div></div>
+        <div id="health-components" class="health-components"></div>
+        <p class="panel-note">This score is an operational lens—not a protocol guarantee or investment recommendation.</p>
+      </article>
+    </section>
+
+    <section class="source-section" data-section="all network economics validators">
+      <div class="section-heading"><div><p class="eyebrow"><span></span> Provenance</p><h2>Every number keeps its receipts.</h2></div><div class="export-actions"><a href="data/latest.json">JSON</a><a href="reports/latest.md">Markdown</a></div></div>
+      <div id="source-grid" class="source-grid"></div>
+      <div id="source-errors" class="source-errors" hidden></div>
+    </section>
+  </main>
+
+  <footer>
+    <div><span class="brand-mark mini" aria-hidden="true"><span></span><span></span><span></span></span><strong>Solana State Observatory</strong></div>
+    <p>Open, keyless, reproducible. Built for the Superteam Canada ecosystem dashboard bounty.</p>
+    <p>Data is informational and may be delayed or incomplete.</p>
+  </footer>
+
+  <template id="loading-template"><span class="skeleton"></span></template>
+  <script src="app.js" defer></script>
+</body>
+</html>

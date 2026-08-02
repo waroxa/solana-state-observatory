@@ -1,0 +1,38 @@
+name: Refresh Solana observation
+
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: observatory-refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run offline tests
+        run: python -m unittest discover -s tests -v
+      - name: Collect live public data
+        run: python collector.py
+      - name: Commit changed observation
+        run: |
+          if git diff --quiet -- docs/data docs/reports; then
+            echo "No generated changes"
+            exit 0
+          fi
+          git config user.name "solana-observatory[bot]"
+          git config user.email "solana-observatory[bot]@users.noreply.github.com"
+          git add docs/data docs/reports
+          git commit -m "data: refresh Solana observation"
+          git push

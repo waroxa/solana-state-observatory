@@ -1,0 +1,12 @@
+[
+  {
+    "generatedAt": "2026-08-02T21:04:26Z",
+    "healthScore": 100,
+    "tps": 3538.28,
+    "slotTimeSeconds": 0.4215,
+    "solPriceUsd": 73.62,
+    "tvlUsd": 4749940153.525379,
+    "dexVolume24hUsd": 1300783694.65,
+    "delinquentStakePct": 0.1431
+  }
+]
