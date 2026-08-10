@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-10T19:16:10Z",
+  "generatedAt": "2026-08-10T20:03:51Z",
   "network": "mainnet-beta",
   "health": {
     "score": 100,
@@ -31,13 +31,13 @@
   "metrics": {
     "network": {
       "rpcHealth": "ok",
-      "slot": 438459416,
-      "blockHeight": 416513186,
+      "slot": 438466209,
+      "blockHeight": 416519980,
       "epoch": 1014,
-      "epochProgressPct": 95.24,
-      "tps": 4120.26,
-      "nonVoteTps": 2499.35,
-      "slotTimeSeconds": 0.4238,
+      "epochProgressPct": 96.81,
+      "tps": 4169.35,
+      "nonVoteTps": 2531.77,
+      "slotTimeSeconds": 0.4196,
       "sampleWindowSeconds": 720.0
     },
     "validators": {
@@ -52,71 +52,71 @@
           "nodePubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
           "activatedStakeSol": 16917849.93,
           "commissionPct": 7,
-          "lastVote": 438459417
+          "lastVote": 438466212
         },
         {
           "votePubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "nodePubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
           "activatedStakeSol": 15982576.47,
           "commissionPct": 0,
-          "lastVote": 438459417
+          "lastVote": 438466212
         },
         {
           "votePubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "nodePubkey": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
           "activatedStakeSol": 12486045.9,
           "commissionPct": 5,
-          "lastVote": 438459417
+          "lastVote": 438466212
         },
         {
           "votePubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "nodePubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
           "activatedStakeSol": 12292541.34,
           "commissionPct": 0,
-          "lastVote": 438459417
+          "lastVote": 438466212
         },
         {
           "votePubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "nodePubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
           "activatedStakeSol": 9183798.11,
           "commissionPct": 7,
-          "lastVote": 438459417
+          "lastVote": 438466212
         },
         {
           "votePubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "nodePubkey": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
           "activatedStakeSol": 8954539.01,
           "commissionPct": 10,
-          "lastVote": 438459417
+          "lastVote": 438466212
         },
         {
           "votePubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "nodePubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
           "activatedStakeSol": 8169945.36,
           "commissionPct": 0,
-          "lastVote": 438459417
+          "lastVote": 438466212
         },
         {
           "votePubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "nodePubkey": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
           "activatedStakeSol": 7938400.65,
           "commissionPct": 7,
-          "lastVote": 438459417
+          "lastVote": 438466212
         }
       ]
     },
     "economics": {
-      "solPriceUsd": 75.86,
-      "solPriceChange24hPct": -1.598530072709023,
-      "solPriceUpdatedAt": "2026-08-10T19:14:40Z",
-      "tvlUsd": 4824612341.488875,
-      "stablecoinSupplyUsd": 15529423455.38818,
+      "solPriceUsd": 76.12,
+      "solPriceChange24hPct": -1.3522322479742743,
+      "solPriceUpdatedAt": "2026-08-10T20:01:40Z",
+      "tvlUsd": 4814760037.331545,
+      "stablecoinSupplyUsd": 15516124561.639788,
       "dexVolume24hUsd": 1347434364.98,
       "dexVolumeChange1dPct": -9.76,
       "fees24hUsd": 9097906.089999998,
       "feesChange1dPct": -1.21,
-      "circulatingSupplySol": 582164946.03,
-      "totalSupplySol": 631882061.29
+      "circulatingSupplySol": 582164914.83,
+      "totalSupplySol": 631882030.09
     }
   },
   "anomalies": [],
@@ -160,5 +160,5 @@
     "anomalies": "Current observation compared with the rolling median of up to 48 prior snapshots, plus explicit validator safety thresholds.",
     "healthScore": "Availability, slot performance, validator participation, and source coverage; diagnostic, not a protocol guarantee."
   },
-  "collectorDurationSeconds": 10.269
+  "collectorDurationSeconds": 13.725
 }
