@@ -1418,5 +1418,15 @@
     "tvlUsd": 4837242903.105275,
     "dexVolume24hUsd": 1581973855.56,
     "delinquentStakePct": 0.0069
+  },
+  {
+    "generatedAt": "2026-08-11T13:41:55Z",
+    "healthScore": 100,
+    "tps": 4352.25,
+    "slotTimeSeconds": 0.422,
+    "solPriceUsd": 75.88,
+    "tvlUsd": 4841857829.223654,
+    "dexVolume24hUsd": 1581973855.56,
+    "delinquentStakePct": 0.0069
   }
 ]
