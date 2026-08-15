@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-15T16:40:58Z",
+  "generatedAt": "2026-08-15T16:59:46Z",
   "network": "mainnet-beta",
   "health": {
     "score": 100,
@@ -31,12 +31,12 @@
   "metrics": {
     "network": {
       "rpcHealth": "ok",
-      "slot": 439470168,
-      "blockHeight": 417520833,
+      "slot": 439472873,
+      "blockHeight": 417523537,
       "epoch": 1017,
-      "epochProgressPct": 29.21,
-      "tps": 3558.47,
-      "nonVoteTps": 1922.86,
+      "epochProgressPct": 29.83,
+      "tps": 3947.46,
+      "nonVoteTps": 2310.09,
       "slotTimeSeconds": 0.4167,
       "sampleWindowSeconds": 720.0
     },
@@ -52,71 +52,71 @@
           "nodePubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
           "activatedStakeSol": 17161315.58,
           "commissionPct": 7,
-          "lastVote": 439470169
+          "lastVote": 439472874
         },
         {
           "votePubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "nodePubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
           "activatedStakeSol": 15969044.2,
           "commissionPct": 0,
-          "lastVote": 439470169
+          "lastVote": 439472874
         },
         {
           "votePubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "nodePubkey": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
           "activatedStakeSol": 12492108.11,
           "commissionPct": 5,
-          "lastVote": 439470169
+          "lastVote": 439472874
         },
         {
           "votePubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "nodePubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
           "activatedStakeSol": 12274845.64,
           "commissionPct": 0,
-          "lastVote": 439470169
+          "lastVote": 439472874
         },
         {
           "votePubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "nodePubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
           "activatedStakeSol": 9181197.29,
           "commissionPct": 7,
-          "lastVote": 439470169
+          "lastVote": 439472874
         },
         {
           "votePubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "nodePubkey": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
           "activatedStakeSol": 8981925.88,
           "commissionPct": 10,
-          "lastVote": 439470169
+          "lastVote": 439472874
         },
         {
           "votePubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "nodePubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
           "activatedStakeSol": 8303340.24,
           "commissionPct": 0,
-          "lastVote": 439470169
+          "lastVote": 439472874
         },
         {
           "votePubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "nodePubkey": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
           "activatedStakeSol": 7969078.02,
           "commissionPct": 7,
-          "lastVote": 439470169
+          "lastVote": 439472874
         }
       ]
     },
     "economics": {
-      "solPriceUsd": 75.39,
-      "solPriceChange24hPct": -0.2351293703858779,
-      "solPriceUpdatedAt": "2026-08-15T16:39:30Z",
+      "solPriceUsd": 75.42,
+      "solPriceChange24hPct": 0.015623803859008141,
+      "solPriceUpdatedAt": "2026-08-15T16:57:30Z",
       "tvlUsd": 4812833609.082099,
       "stablecoinSupplyUsd": 15350188064.27585,
       "dexVolume24hUsd": 1612403611.56,
       "dexVolumeChange1dPct": -17.0,
       "fees24hUsd": 8047086.789999999,
       "feesChange1dPct": -20.71,
-      "circulatingSupplySol": 582728058.51,
-      "totalSupplySol": 632262043.27
+      "circulatingSupplySol": 582728047.14,
+      "totalSupplySol": 632262031.9
     }
   },
   "anomalies": [],
@@ -160,5 +160,5 @@
     "anomalies": "Current observation compared with the rolling median of up to 48 prior snapshots, plus explicit validator safety thresholds.",
     "healthScore": "Availability, slot performance, validator participation, and source coverage; diagnostic, not a protocol guarantee."
   },
-  "collectorDurationSeconds": 12.067
+  "collectorDurationSeconds": 9.284
 }
