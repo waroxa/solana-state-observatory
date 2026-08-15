@@ -1,6 +1,6 @@
 # Solana State Observatory — Snapshot
 
-Generated **2026-08-15T01:49:23Z** · mainnet-beta · health score **100/100 (healthy)**
+Generated **2026-08-15T03:04:32Z** · mainnet-beta · health score **100/100 (healthy)**
 
 > This is an automatically generated diagnostic report, not financial advice. A missing source is shown as unavailable rather than silently replaced with stale data.
 
@@ -9,37 +9,37 @@ Generated **2026-08-15T01:49:23Z** · mainnet-beta · health score **100/100 (he
 | Network | Current |
 |---|---:|
 | RPC health | ok |
-| Throughput (sampled) | 3.66K tx/s |
-| Slot time (sampled) | 0.4145 s |
-| Epoch progress | 99.41% |
+| Throughput (sampled) | 3.38K tx/s |
+| Slot time (sampled) | 0.4150 s |
+| Epoch progress | 1.93% |
 | Active validators | 687 |
-| Delinquent stake | 0.0986% |
+| Delinquent stake | 0.0202% |
 
 ## Economic pulse
 
 | Metric | Current | 24h change |
 |---|---:|---:|
-| SOL price | 75.36 USD | -0.90% |
+| SOL price | 75.58 USD | -0.41% |
 | DeFi TVL | 4.81B USD | — |
-| Stablecoin supply | 15.36B USD | — |
-| DEX volume | 1.64B USD | -15.46% |
-| Protocol fees | 10.04M USD | -1.11% |
+| Stablecoin supply | 15.35B USD | — |
+| DEX volume | 1.64B USD | -15.47% |
+| Protocol fees | 8.11M USD | -20.12% |
 
 ## Anomaly register
 
 | Severity | Metric | Observation | vs rolling baseline |
 |---|---|---:|---:|
-| CRITICAL | Delinquent stake | 0.10% | +614.49% |
+| — | No anomaly detected | — | — |
 
 ## Validator concentration lens
 
 | Vote account | Activated stake | Commission |
 |---|---:|---:|
-| `CcaHc2L4…BzoTN1` | 17.06M SOL | 7% |
+| `CcaHc2L4…BzoTN1` | 17.16M SOL | 7% |
 | `he1iusun…PauBtk` | 15.97M SOL | 0% |
-| `CatzoSMU…gZDiqb` | 12.48M SOL | 5% |
-| `3N7s9zXM…eWiD5g` | 12.36M SOL | 0% |
-| `26pV97Ce…c53dJx` | 9.16M SOL | 7% |
+| `CatzoSMU…gZDiqb` | 12.49M SOL | 5% |
+| `3N7s9zXM…eWiD5g` | 12.27M SOL | 0% |
+| `26pV97Ce…c53dJx` | 9.18M SOL | 7% |
 | `51JBzSTU…zgUNAm` | 8.98M SOL | 10% |
 | `8GbwASqd…GJF8iD` | 8.30M SOL | 0% |
 | `9QU2QSxh…aM29mF` | 7.97M SOL | 7% |
