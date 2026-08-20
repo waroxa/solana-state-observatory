@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-20T06:16:18Z",
+  "generatedAt": "2026-08-20T07:08:50Z",
   "network": "mainnet-beta",
   "health": {
     "score": 100,
@@ -31,13 +31,13 @@
   "metrics": {
     "network": {
       "rpcHealth": "ok",
-      "slot": 440419195,
-      "blockHeight": 418469098,
+      "slot": 440426775,
+      "blockHeight": 418476678,
       "epoch": 1019,
-      "epochProgressPct": 48.89,
-      "tps": 3226.38,
-      "nonVoteTps": 1596.83,
-      "slotTimeSeconds": 0.4193,
+      "epochProgressPct": 50.64,
+      "tps": 2941.81,
+      "nonVoteTps": 1307.85,
+      "slotTimeSeconds": 0.4181,
       "sampleWindowSeconds": 720.0
     },
     "validators": {
@@ -52,71 +52,71 @@
           "nodePubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
           "activatedStakeSol": 17101526.86,
           "commissionPct": 7,
-          "lastVote": 440419195
+          "lastVote": 440426775
         },
         {
           "votePubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "nodePubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
           "activatedStakeSol": 16011570.34,
           "commissionPct": 0,
-          "lastVote": 440419195
+          "lastVote": 440426775
         },
         {
           "votePubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "nodePubkey": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
           "activatedStakeSol": 12410377.83,
           "commissionPct": 5,
-          "lastVote": 440419195
+          "lastVote": 440426775
         },
         {
           "votePubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "nodePubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
           "activatedStakeSol": 12198972.14,
           "commissionPct": 0,
-          "lastVote": 440419195
+          "lastVote": 440426775
         },
         {
           "votePubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "nodePubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
           "activatedStakeSol": 9188631.12,
           "commissionPct": 7,
-          "lastVote": 440419195
+          "lastVote": 440426775
         },
         {
           "votePubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "nodePubkey": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
           "activatedStakeSol": 8991289.76,
           "commissionPct": 10,
-          "lastVote": 440419195
+          "lastVote": 440426775
         },
         {
           "votePubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "nodePubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
           "activatedStakeSol": 8308413.01,
           "commissionPct": 0,
-          "lastVote": 440419195
+          "lastVote": 440426775
         },
         {
           "votePubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "nodePubkey": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
           "activatedStakeSol": 7991430.5,
           "commissionPct": 7,
-          "lastVote": 440419195
+          "lastVote": 440426775
         }
       ]
     },
     "economics": {
-      "solPriceUsd": 84.76,
-      "solPriceChange24hPct": 10.585445595902023,
-      "solPriceUpdatedAt": "2026-08-20T06:14:50Z",
-      "tvlUsd": 5198850711.874408,
+      "solPriceUsd": 85.9,
+      "solPriceChange24hPct": 11.677301086645471,
+      "solPriceUpdatedAt": "2026-08-20T07:06:20Z",
+      "tvlUsd": 5199154247.877834,
       "stablecoinSupplyUsd": 15755477913.43642,
       "dexVolume24hUsd": 2789524387.95,
       "dexVolumeChange1dPct": 51.75,
-      "fees24hUsd": 13172440.829999994,
-      "feesChange1dPct": 50.15,
-      "circulatingSupplySol": 583006286.35,
-      "totalSupplySol": 632513830.77
+      "fees24hUsd": 13244735.689999996,
+      "feesChange1dPct": 50.97,
+      "circulatingSupplySol": 583006260.74,
+      "totalSupplySol": 632513805.16
     }
   },
   "anomalies": [
@@ -132,9 +132,9 @@
     {
       "metric": "SOL price",
       "severity": "warning",
-      "value": 84.76,
-      "baseline": 78.26,
-      "deltaPct": 8.31,
+      "value": 85.9,
+      "baseline": 78.845,
+      "deltaPct": 8.95,
       "unit": "USD",
       "method": "rolling median (up to 48 observations)"
     }
@@ -179,5 +179,5 @@
     "anomalies": "Current observation compared with the rolling median of up to 48 prior snapshots, plus explicit validator safety thresholds.",
     "healthScore": "Availability, slot performance, validator participation, and source coverage; diagnostic, not a protocol guarantee."
   },
-  "collectorDurationSeconds": 9.89
+  "collectorDurationSeconds": 10.29
 }
