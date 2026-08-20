@@ -1,15 +1,5 @@
 [
   {
-    "generatedAt": "2026-08-08T11:42:10Z",
-    "healthScore": 100,
-    "tps": 2834.36,
-    "slotTimeSeconds": 0.4203,
-    "solPriceUsd": 75.19,
-    "tvlUsd": 4774227468.491268,
-    "dexVolume24hUsd": 1362524618.02,
-    "delinquentStakePct": 0.0072
-  },
-  {
     "generatedAt": "2026-08-08T12:01:48Z",
     "healthScore": 100,
     "tps": 2991.6,
@@ -3358,5 +3348,15 @@
     "tvlUsd": 5219216672.068292,
     "dexVolume24hUsd": 2789524387.95,
     "delinquentStakePct": 0.0109
+  },
+  {
+    "generatedAt": "2026-08-20T09:49:44Z",
+    "healthScore": 100,
+    "tps": 3306.54,
+    "slotTimeSeconds": 0.4152,
+    "solPriceUsd": 87.51,
+    "tvlUsd": 5251211518.817688,
+    "dexVolume24hUsd": 2789524387.95,
+    "delinquentStakePct": 0.0013
   }
 ]
