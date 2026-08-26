@@ -1,6 +1,6 @@
 # Solana State Observatory — Snapshot
 
-Generated **2026-08-26T19:18:45Z** · mainnet-beta · health score **100/100 (healthy)**
+Generated **2026-08-26T22:30:23Z** · mainnet-beta · health score **100/100 (healthy)**
 
 > This is an automatically generated diagnostic report, not financial advice. A missing source is shown as unavailable rather than silently replaced with stale data.
 
@@ -9,19 +9,19 @@ Generated **2026-08-26T19:18:45Z** · mainnet-beta · health score **100/100 (he
 | Network | Current |
 |---|---:|
 | RPC health | ok |
-| Throughput (sampled) | 4.72K tx/s |
-| Slot time (sampled) | 0.3679 s |
-| Epoch progress | 99.57% |
-| Active validators | 682 |
-| Delinquent stake | 0.2989% |
+| Throughput (sampled) | 4.79K tx/s |
+| Slot time (sampled) | 0.3683 s |
+| Epoch progress | 6.82% |
+| Active validators | 685 |
+| Delinquent stake | 0.0526% |
 
 ## Economic pulse
 
 | Metric | Current | 24h change |
 |---|---:|---:|
-| SOL price | 96.42 USD | -2.09% |
-| DeFi TVL | 5.56B USD | — |
-| Stablecoin supply | 15.77B USD | — |
+| SOL price | 100.20 USD | 2.99% |
+| DeFi TVL | 5.60B USD | — |
+| Stablecoin supply | 15.86B USD | — |
 | DEX volume | 2.93B USD | -2.04% |
 | Protocol fees | 13.24M USD | -8.67% |
 
@@ -29,20 +29,20 @@ Generated **2026-08-26T19:18:45Z** · mainnet-beta · health score **100/100 (he
 
 | Severity | Metric | Observation | vs rolling baseline |
 |---|---|---:|---:|
-| CRITICAL | Delinquent stake | 0.30% | +580.87% |
+| — | No anomaly detected | — | — |
 
 ## Validator concentration lens
 
 | Vote account | Activated stake | Commission |
 |---|---:|---:|
-| `CcaHc2L4…BzoTN1` | 17.07M SOL | 7% |
-| `he1iusun…PauBtk` | 16.04M SOL | 0% |
-| `3N7s9zXM…eWiD5g` | 12.27M SOL | 0% |
-| `CatzoSMU…gZDiqb` | 11.74M SOL | 5% |
-| `26pV97Ce…c53dJx` | 9.20M SOL | 7% |
-| `51JBzSTU…zgUNAm` | 8.92M SOL | 10% |
-| `8GbwASqd…GJF8iD` | 8.58M SOL | 0% |
-| `9QU2QSxh…aM29mF` | 7.95M SOL | 7% |
+| `CcaHc2L4…BzoTN1` | 17.06M SOL | 7% |
+| `he1iusun…PauBtk` | 16.03M SOL | 0% |
+| `3N7s9zXM…eWiD5g` | 12.31M SOL | 0% |
+| `CatzoSMU…gZDiqb` | 11.75M SOL | 5% |
+| `26pV97Ce…c53dJx` | 9.22M SOL | 7% |
+| `8GbwASqd…GJF8iD` | 9.05M SOL | 0% |
+| `51JBzSTU…zgUNAm` | 8.90M SOL | 10% |
+| `9QU2QSxh…aM29mF` | 7.85M SOL | 7% |
 
 ## Source coverage
 
