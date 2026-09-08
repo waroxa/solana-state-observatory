@@ -1,6 +1,6 @@
 # Solana State Observatory — Snapshot
 
-Generated **2026-09-08T15:20:59Z** · mainnet-beta · health score **100/100 (healthy)**
+Generated **2026-09-08T18:58:02Z** · mainnet-beta · health score **100/100 (healthy)**
 
 > This is an automatically generated diagnostic report, not financial advice. A missing source is shown as unavailable rather than silently replaced with stale data.
 
@@ -9,19 +9,19 @@ Generated **2026-09-08T15:20:59Z** · mainnet-beta · health score **100/100 (he
 | Network | Current |
 |---|---:|
 | RPC health | ok |
-| Throughput (sampled) | 4.44K tx/s |
-| Slot time (sampled) | 0.3170 s |
-| Epoch progress | 95.15% |
-| Active validators | 675 |
-| Delinquent stake | 0.0150% |
+| Throughput (sampled) | 4.97K tx/s |
+| Slot time (sampled) | 0.3157 s |
+| Epoch progress | 4.65% |
+| Active validators | 676 |
+| Delinquent stake | 0.0120% |
 
 ## Economic pulse
 
 | Metric | Current | 24h change |
 |---|---:|---:|
-| SOL price | 103.63 USD | -0.75% |
-| DeFi TVL | 5.86B USD | — |
-| Stablecoin supply | 16.22B USD | — |
+| SOL price | 103.34 USD | -0.50% |
+| DeFi TVL | 5.93B USD | — |
+| Stablecoin supply | 16.16B USD | — |
 | DEX volume | 2.72B USD | -6.33% |
 | Protocol fees | 15.65M USD | 6.81% |
 
@@ -36,13 +36,13 @@ Generated **2026-09-08T15:20:59Z** · mainnet-beta · health score **100/100 (he
 | Vote account | Activated stake | Commission |
 |---|---:|---:|
 | `CcaHc2L4…BzoTN1` | 17.44M SOL | 7% |
-| `he1iusun…PauBtk` | 16.34M SOL | 0% |
-| `3N7s9zXM…eWiD5g` | 12.52M SOL | 0% |
-| `CatzoSMU…gZDiqb` | 11.40M SOL | 5% |
-| `8GbwASqd…GJF8iD` | 9.56M SOL | 0% |
-| `26pV97Ce…c53dJx` | 9.18M SOL | 7% |
-| `51JBzSTU…zgUNAm` | 9.04M SOL | 10% |
-| `9QU2QSxh…aM29mF` | 7.38M SOL | 7% |
+| `he1iusun…PauBtk` | 16.35M SOL | 0% |
+| `3N7s9zXM…eWiD5g` | 12.53M SOL | 0% |
+| `CatzoSMU…gZDiqb` | 11.39M SOL | 5% |
+| `8GbwASqd…GJF8iD` | 9.57M SOL | 0% |
+| `26pV97Ce…c53dJx` | 9.29M SOL | 7% |
+| `51JBzSTU…zgUNAm` | 9.03M SOL | 10% |
+| `9QU2QSxh…aM29mF` | 7.32M SOL | 7% |
 
 ## Source coverage
 
