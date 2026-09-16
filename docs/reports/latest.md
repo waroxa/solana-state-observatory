@@ -1,6 +1,6 @@
 # Solana State Observatory — Snapshot
 
-Generated **2026-09-16T14:57:59Z** · mainnet-beta · health score **100/100 (healthy)**
+Generated **2026-09-16T18:53:56Z** · mainnet-beta · health score **100/100 (healthy)**
 
 > This is an automatically generated diagnostic report, not financial advice. A missing source is shown as unavailable rather than silently replaced with stale data.
 
@@ -9,19 +9,19 @@ Generated **2026-09-16T14:57:59Z** · mainnet-beta · health score **100/100 (he
 | Network | Current |
 |---|---:|
 | RPC health | ok |
-| Throughput (sampled) | 4.32K tx/s |
+| Throughput (sampled) | 5.35K tx/s |
 | Slot time (sampled) | 0.3175 s |
-| Epoch progress | 99.75% |
-| Active validators | 678 |
-| Delinquent stake | 0.0445% |
+| Epoch progress | 10.08% |
+| Active validators | 677 |
+| Delinquent stake | 0.0436% |
 
 ## Economic pulse
 
 | Metric | Current | 24h change |
 |---|---:|---:|
-| SOL price | 96.87 USD | -1.74% |
-| DeFi TVL | 5.73B USD | — |
-| Stablecoin supply | 15.53B USD | — |
+| SOL price | 98.09 USD | 0.61% |
+| DeFi TVL | 5.71B USD | — |
+| Stablecoin supply | 15.41B USD | — |
 | DEX volume | 2.70B USD | 6.84% |
 | Protocol fees | 14.08M USD | 3.71% |
 
@@ -35,14 +35,14 @@ Generated **2026-09-16T14:57:59Z** · mainnet-beta · health score **100/100 (he
 
 | Vote account | Activated stake | Commission |
 |---|---:|---:|
-| `CcaHc2L4…BzoTN1` | 17.76M SOL | 7% |
-| `he1iusun…PauBtk` | 16.37M SOL | 0% |
+| `CcaHc2L4…BzoTN1` | 17.77M SOL | 7% |
+| `he1iusun…PauBtk` | 16.35M SOL | 0% |
 | `3N7s9zXM…eWiD5g` | 12.49M SOL | 0% |
-| `CatzoSMU…gZDiqb` | 11.37M SOL | 5% |
-| `8GbwASqd…GJF8iD` | 9.67M SOL | 0% |
+| `CatzoSMU…gZDiqb` | 11.38M SOL | 5% |
+| `8GbwASqd…GJF8iD` | 9.74M SOL | 0% |
 | `26pV97Ce…c53dJx` | 9.26M SOL | 7% |
-| `51JBzSTU…zgUNAm` | 9.04M SOL | 10% |
-| `9QU2QSxh…aM29mF` | 7.37M SOL | 7% |
+| `51JBzSTU…zgUNAm` | 9.05M SOL | 10% |
+| `9QU2QSxh…aM29mF` | 7.39M SOL | 7% |
 
 ## Source coverage
 
