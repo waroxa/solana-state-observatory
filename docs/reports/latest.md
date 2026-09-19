@@ -1,6 +1,6 @@
 # Solana State Observatory — Snapshot
 
-Generated **2026-09-18T22:34:01Z** · mainnet-beta · health score **100/100 (healthy)**
+Generated **2026-09-19T00:38:21Z** · mainnet-beta · health score **100/100 (healthy)**
 
 > This is an automatically generated diagnostic report, not financial advice. A missing source is shown as unavailable rather than silently replaced with stale data.
 
@@ -9,27 +9,27 @@ Generated **2026-09-18T22:34:01Z** · mainnet-beta · health score **100/100 (he
 | Network | Current |
 |---|---:|
 | RPC health | ok |
-| Throughput (sampled) | 4.77K tx/s |
-| Slot time (sampled) | 0.2672 s |
-| Epoch progress | 54.52% |
-| Active validators | 676 |
-| Delinquent stake | 0.0402% |
+| Throughput (sampled) | 4.76K tx/s |
+| Slot time (sampled) | 0.2662 s |
+| Epoch progress | 61.00% |
+| Active validators | 678 |
+| Delinquent stake | 0.0336% |
 
 ## Economic pulse
 
 | Metric | Current | 24h change |
 |---|---:|---:|
-| SOL price | 113.22 USD | 12.16% |
-| DeFi TVL | 6.27B USD | — |
-| Stablecoin supply | 15.38B USD | — |
+| SOL price | 113.32 USD | 11.97% |
+| DeFi TVL | 6.29B USD | — |
+| Stablecoin supply | 15.49B USD | — |
 | DEX volume | 2.59B USD | -7.41% |
-| Protocol fees | 14.68M USD | -1.45% |
+| Protocol fees | 15.27M USD | 4.06% |
 
 ## Anomaly register
 
 | Severity | Metric | Observation | vs rolling baseline |
 |---|---|---:|---:|
-| WARNING | SOL price | 113.22USD | +11.64% |
+| WARNING | SOL price | 113.32USD | +11.74% |
 
 ## Validator concentration lens
 
