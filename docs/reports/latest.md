@@ -1,6 +1,6 @@
 # Solana State Observatory — Snapshot
 
-Generated **2026-09-27T08:08:47Z** · mainnet-beta · health score **100/100 (healthy)**
+Generated **2026-09-27T13:57:47Z** · mainnet-beta · health score **100/100 (healthy)**
 
 > This is an automatically generated diagnostic report, not financial advice. A missing source is shown as unavailable rather than silently replaced with stale data.
 
@@ -9,21 +9,21 @@ Generated **2026-09-27T08:08:47Z** · mainnet-beta · health score **100/100 (he
 | Network | Current |
 |---|---:|
 | RPC health | ok |
-| Throughput (sampled) | 4.19K tx/s |
-| Slot time (sampled) | 0.2676 s |
-| Epoch progress | 83.94% |
-| Active validators | 676 |
-| Delinquent stake | 0.0083% |
+| Throughput (sampled) | 4.73K tx/s |
+| Slot time (sampled) | 0.2720 s |
+| Epoch progress | 2.07% |
+| Active validators | 675 |
+| Delinquent stake | 0.0054% |
 
 ## Economic pulse
 
 | Metric | Current | 24h change |
 |---|---:|---:|
-| SOL price | 124.18 USD | 2.98% |
-| DeFi TVL | 6.64B USD | — |
-| Stablecoin supply | 16.42B USD | — |
-| DEX volume | 2.35B USD | -10.05% |
-| Protocol fees | 18.28M USD | 17.20% |
+| SOL price | 122.87 USD | 1.75% |
+| DeFi TVL | 6.74B USD | — |
+| Stablecoin supply | 16.43B USD | — |
+| DEX volume | 2.16B USD | -17.52% |
+| Protocol fees | 17.93M USD | 18.95% |
 
 ## Anomaly register
 
@@ -35,14 +35,14 @@ Generated **2026-09-27T08:08:47Z** · mainnet-beta · health score **100/100 (he
 
 | Vote account | Activated stake | Commission |
 |---|---:|---:|
-| `CcaHc2L4…BzoTN1` | 17.86M SOL | 7% |
-| `he1iusun…PauBtk` | 15.80M SOL | 0% |
-| `3N7s9zXM…eWiD5g` | 12.34M SOL | 0% |
+| `CcaHc2L4…BzoTN1` | 17.87M SOL | 7% |
+| `he1iusun…PauBtk` | 15.84M SOL | 0% |
+| `3N7s9zXM…eWiD5g` | 12.33M SOL | 0% |
 | `CatzoSMU…gZDiqb` | 11.22M SOL | 5% |
 | `8GbwASqd…GJF8iD` | 10.84M SOL | 0% |
 | `26pV97Ce…c53dJx` | 9.24M SOL | 7% |
-| `51JBzSTU…zgUNAm` | 9.18M SOL | 10% |
-| `9QU2QSxh…aM29mF` | 7.61M SOL | 7% |
+| `51JBzSTU…zgUNAm` | 9.21M SOL | 10% |
+| `9QU2QSxh…aM29mF` | 7.62M SOL | 7% |
 
 ## Source coverage
 
