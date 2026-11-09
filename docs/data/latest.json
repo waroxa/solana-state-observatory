@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-09T09:46:52Z",
+  "generatedAt": "2026-11-09T20:10:30Z",
   "network": "mainnet-beta",
   "health": {
     "score": 100,
@@ -31,119 +31,101 @@
   "metrics": {
     "network": {
       "rpcHealth": "ok",
-      "slot": 467272340,
-      "blockHeight": 445290317,
-      "epoch": 1081,
-      "epochProgressPct": 64.89,
-      "tps": 1089.23,
-      "nonVoteTps": 1089.23,
-      "slotTimeSeconds": 0.2136,
+      "slot": 467446683,
+      "blockHeight": 445464476,
+      "epoch": 1082,
+      "epochProgressPct": 5.25,
+      "tps": 1728.14,
+      "nonVoteTps": 1728.14,
+      "slotTimeSeconds": 0.2143,
       "sampleWindowSeconds": 720.0
     },
     "validators": {
-      "active": 663,
-      "delinquent": 34,
-      "activeStakeSol": 433362786.62,
-      "delinquentStakeSol": 557774.01,
-      "delinquentStakePct": 0.1285,
+      "active": 657,
+      "delinquent": 41,
+      "activeStakeSol": 434008268.34,
+      "delinquentStakeSol": 976204.01,
+      "delinquentStakePct": 0.2244,
       "topByStake": [
         {
           "votePubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "nodePubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-          "activatedStakeSol": 17050552.56,
+          "activatedStakeSol": 16898208.43,
           "commissionPct": 7,
-          "lastVote": 467272340
+          "lastVote": 467446684
         },
         {
           "votePubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
           "nodePubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-          "activatedStakeSol": 16720131.04,
+          "activatedStakeSol": 16746254.08,
           "commissionPct": 0,
-          "lastVote": 467272340
+          "lastVote": 467446684
         },
         {
           "votePubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "nodePubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-          "activatedStakeSol": 13021912.46,
+          "activatedStakeSol": 13034244.04,
           "commissionPct": 0,
-          "lastVote": 467272340
+          "lastVote": 467446684
         },
         {
           "votePubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "nodePubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-          "activatedStakeSol": 10279070.04,
+          "activatedStakeSol": 10280950.21,
           "commissionPct": 0,
-          "lastVote": 467272340
-        },
-        {
-          "votePubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-          "nodePubkey": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
-          "activatedStakeSol": 9553388.11,
-          "commissionPct": 5,
-          "lastVote": 467272340
+          "lastVote": 467446684
         },
         {
           "votePubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "nodePubkey": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
-          "activatedStakeSol": 9550278.2,
+          "activatedStakeSol": 9598548.58,
           "commissionPct": 10,
-          "lastVote": 467272340
+          "lastVote": 467446684
+        },
+        {
+          "votePubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
+          "nodePubkey": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
+          "activatedStakeSol": 9553850.87,
+          "commissionPct": 5,
+          "lastVote": 467446684
         },
         {
           "votePubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "nodePubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-          "activatedStakeSol": 9222876.15,
+          "activatedStakeSol": 9233158.91,
           "commissionPct": 7,
-          "lastVote": 467272340
+          "lastVote": 467446684
         },
         {
           "votePubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "nodePubkey": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-          "activatedStakeSol": 7775136.55,
+          "activatedStakeSol": 7813315.88,
           "commissionPct": 7,
-          "lastVote": 467272340
+          "lastVote": 467446684
         }
       ]
     },
     "economics": {
-      "solPriceUsd": 86.49,
-      "solPriceChange24hPct": -3.0131629651481804,
-      "solPriceUpdatedAt": "2026-11-09T09:46:19Z",
-      "tvlUsd": 5060096587.308639,
-      "stablecoinSupplyUsd": 14763401105.90329,
-      "dexVolume24hUsd": 997094322.3000001,
-      "dexVolumeChange1dPct": 8.68,
-      "fees24hUsd": 8292373.3599999985,
-      "feesChange1dPct": 3.7,
-      "circulatingSupplySol": 591093650.73,
-      "totalSupplySol": 637249892.3
+      "solPriceUsd": 86.4,
+      "solPriceChange24hPct": -3.2622287771920284,
+      "solPriceUpdatedAt": "2026-11-09T20:09:17Z",
+      "tvlUsd": 5087641914.383165,
+      "stablecoinSupplyUsd": 14722582992.4434,
+      "dexVolume24hUsd": 1043374478.3000001,
+      "dexVolumeChange1dPct": 13.73,
+      "fees24hUsd": 8307454.3599999985,
+      "feesChange1dPct": 3.73,
+      "circulatingSupplySol": 591149321.4,
+      "totalSupplySol": 637311171.18
     }
   },
   "anomalies": [
     {
-      "metric": "TPS",
-      "severity": "warning",
-      "value": 1089.23,
-      "baseline": 1577.51,
-      "deltaPct": -30.95,
-      "unit": "tx/s",
-      "method": "rolling median (up to 48 observations)"
-    },
-    {
-      "metric": "SOL price",
-      "severity": "warning",
-      "value": 86.49,
-      "baseline": 94.065,
-      "deltaPct": -8.05,
-      "unit": "USD",
-      "method": "rolling median (up to 48 observations)"
-    },
-    {
       "metric": "DEX volume",
       "severity": "warning",
-      "value": 997094322.3,
+      "value": 1043374478.3,
       "baseline": 1841668893.5,
-      "deltaPct": -45.86,
+      "deltaPct": -43.35,
       "unit": "USD",
       "method": "rolling median (up to 48 observations)"
     }
@@ -188,5 +170,5 @@
     "anomalies": "Current observation compared with the rolling median of up to 48 prior snapshots, plus explicit validator safety thresholds.",
     "healthScore": "Availability, slot performance, validator participation, and source coverage; diagnostic, not a protocol guarantee."
   },
-  "collectorDurationSeconds": 7.331
+  "collectorDurationSeconds": 8.084
 }
