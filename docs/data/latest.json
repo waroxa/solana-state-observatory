@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-11T03:01:42Z",
+  "generatedAt": "2026-11-11T10:55:23Z",
   "network": "mainnet-beta",
   "health": {
     "score": 100,
@@ -31,13 +31,13 @@
   "metrics": {
     "network": {
       "rpcHealth": "ok",
-      "slot": 467964912,
-      "blockHeight": 445981491,
+      "slot": 468097439,
+      "blockHeight": 446113842,
       "epoch": 1083,
-      "epochProgressPct": 25.21,
-      "tps": 1848.12,
-      "nonVoteTps": 1848.12,
-      "slotTimeSeconds": 0.2156,
+      "epochProgressPct": 55.89,
+      "tps": 1225.28,
+      "nonVoteTps": 1225.27,
+      "slotTimeSeconds": 0.2162,
       "sampleWindowSeconds": 720.0
     },
     "validators": {
@@ -52,89 +52,80 @@
           "nodePubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
           "activatedStakeSol": 16764484.66,
           "commissionPct": 0,
-          "lastVote": 467964913
+          "lastVote": 468097439
         },
         {
           "votePubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
           "nodePubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
           "activatedStakeSol": 16564684.86,
           "commissionPct": 7,
-          "lastVote": 467964913
+          "lastVote": 468097441
         },
         {
           "votePubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
           "nodePubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
           "activatedStakeSol": 13031624.88,
           "commissionPct": 0,
-          "lastVote": 467964913
+          "lastVote": 468097440
         },
         {
           "votePubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
           "nodePubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
           "activatedStakeSol": 10117254.31,
           "commissionPct": 0,
-          "lastVote": 467964913
+          "lastVote": 468097439
         },
         {
           "votePubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
           "nodePubkey": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
           "activatedStakeSol": 9644050.74,
           "commissionPct": 10,
-          "lastVote": 467964913
+          "lastVote": 468097441
         },
         {
           "votePubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
           "nodePubkey": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
           "activatedStakeSol": 9571015.38,
           "commissionPct": 5,
-          "lastVote": 467964913
+          "lastVote": 468097441
         },
         {
           "votePubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
           "nodePubkey": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
           "activatedStakeSol": 9231999.47,
           "commissionPct": 7,
-          "lastVote": 467964913
+          "lastVote": 468097441
         },
         {
           "votePubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
           "nodePubkey": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
           "activatedStakeSol": 7814330.21,
           "commissionPct": 7,
-          "lastVote": 467964913
+          "lastVote": 468097441
         }
       ]
     },
     "economics": {
-      "solPriceUsd": 83.17,
-      "solPriceChange24hPct": -3.414384780313504,
-      "solPriceUpdatedAt": "2026-11-11T03:00:58Z",
-      "tvlUsd": 5060556084.021305,
-      "stablecoinSupplyUsd": 14422657456.774374,
-      "dexVolume24hUsd": 1336261741.3400002,
-      "dexVolumeChange1dPct": -10.18,
-      "fees24hUsd": 8164313.84,
-      "feesChange1dPct": -11.03,
-      "circulatingSupplySol": 591408536.14,
-      "totalSupplySol": 637372038.59
+      "solPriceUsd": 83.72,
+      "solPriceChange24hPct": -0.9733237459901002,
+      "solPriceUpdatedAt": "2026-11-11T10:54:23Z",
+      "tvlUsd": 5056132015.402237,
+      "stablecoinSupplyUsd": 14361687204.152557,
+      "dexVolume24hUsd": 1338564167.3400002,
+      "dexVolumeChange1dPct": -10.03,
+      "fees24hUsd": 8151042.84,
+      "feesChange1dPct": -11.18,
+      "circulatingSupplySol": 591408430.1,
+      "totalSupplySol": 637371932.56
     }
   },
   "anomalies": [
     {
       "metric": "SOL price",
       "severity": "warning",
-      "value": 83.17,
-      "baseline": 91.93,
-      "deltaPct": -9.53,
-      "unit": "USD",
-      "method": "rolling median (up to 48 observations)"
-    },
-    {
-      "metric": "DEX volume",
-      "severity": "warning",
-      "value": 1336261741.34,
-      "baseline": 1820172115.5,
-      "deltaPct": -26.59,
+      "value": 83.72,
+      "baseline": 91.765,
+      "deltaPct": -8.77,
       "unit": "USD",
       "method": "rolling median (up to 48 observations)"
     }
@@ -179,5 +170,5 @@
     "anomalies": "Current observation compared with the rolling median of up to 48 prior snapshots, plus explicit validator safety thresholds.",
     "healthScore": "Availability, slot performance, validator participation, and source coverage; diagnostic, not a protocol guarantee."
   },
-  "collectorDurationSeconds": 9.943
+  "collectorDurationSeconds": 9.532
 }
