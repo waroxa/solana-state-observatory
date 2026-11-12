@@ -1,6 +1,6 @@
 # Solana State Observatory — Snapshot
 
-Generated **2026-11-11T18:41:13Z** · mainnet-beta · health score **100/100 (healthy)**
+Generated **2026-11-12T00:59:40Z** · mainnet-beta · health score **100/100 (healthy)**
 
 > This is an automatically generated diagnostic report, not financial advice. A missing source is shown as unavailable rather than silently replaced with stale data.
 
@@ -9,21 +9,21 @@ Generated **2026-11-11T18:41:13Z** · mainnet-beta · health score **100/100 (he
 | Network | Current |
 |---|---:|
 | RPC health | ok |
-| Throughput (sampled) | 2.34K tx/s |
-| Slot time (sampled) | 0.2160 s |
-| Epoch progress | 85.99% |
-| Active validators | 659 |
-| Delinquent stake | 0.2205% |
+| Throughput (sampled) | 1.79K tx/s |
+| Slot time (sampled) | 0.2152 s |
+| Epoch progress | 10.41% |
+| Active validators | 661 |
+| Delinquent stake | 0.1580% |
 
 ## Economic pulse
 
 | Metric | Current | 24h change |
 |---|---:|---:|
-| SOL price | 85.23 USD | 2.51% |
-| DeFi TVL | 5.12B USD | — |
-| Stablecoin supply | 13.84B USD | — |
-| DEX volume | 1.34B USD | -9.79% |
-| Protocol fees | 8.41M USD | -10.14% |
+| SOL price | 83.48 USD | 0.47% |
+| DeFi TVL | 5.08B USD | — |
+| Stablecoin supply | 13.83B USD | — |
+| DEX volume | 1.37B USD | 2.54% |
+| Protocol fees | 8.74M USD | 4.12% |
 
 ## Anomaly register
 
@@ -35,14 +35,14 @@ Generated **2026-11-11T18:41:13Z** · mainnet-beta · health score **100/100 (he
 
 | Vote account | Activated stake | Commission |
 |---|---:|---:|
-| `he1iusun…PauBtk` | 16.76M SOL | 0% |
-| `CcaHc2L4…BzoTN1` | 16.56M SOL | 7% |
+| `he1iusun…PauBtk` | 16.79M SOL | 0% |
+| `CcaHc2L4…BzoTN1` | 16.12M SOL | 7% |
 | `3N7s9zXM…eWiD5g` | 13.03M SOL | 0% |
 | `8GbwASqd…GJF8iD` | 10.12M SOL | 0% |
-| `51JBzSTU…zgUNAm` | 9.64M SOL | 10% |
-| `CatzoSMU…gZDiqb` | 9.57M SOL | 5% |
+| `51JBzSTU…zgUNAm` | 9.68M SOL | 10% |
+| `CatzoSMU…gZDiqb` | 9.58M SOL | 5% |
 | `26pV97Ce…c53dJx` | 9.23M SOL | 7% |
-| `9QU2QSxh…aM29mF` | 7.81M SOL | 7% |
+| `9QU2QSxh…aM29mF` | 7.84M SOL | 7% |
 
 ## Source coverage
 
