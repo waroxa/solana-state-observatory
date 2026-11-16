@@ -1,6 +1,6 @@
 # Solana State Observatory — Snapshot
 
-Generated **2026-11-16T02:05:28Z** · mainnet-beta · health score **100/100 (healthy)**
+Generated **2026-11-16T09:41:12Z** · mainnet-beta · health score **100/100 (healthy)**
 
 > This is an automatically generated diagnostic report, not financial advice. A missing source is shown as unavailable rather than silently replaced with stale data.
 
@@ -9,40 +9,41 @@ Generated **2026-11-16T02:05:28Z** · mainnet-beta · health score **100/100 (he
 | Network | Current |
 |---|---:|
 | RPC health | ok |
-| Throughput (sampled) | 2.45K tx/s |
-| Slot time (sampled) | 0.2151 s |
-| Epoch progress | 86.46% |
+| Throughput (sampled) | 1.09K tx/s |
+| Slot time (sampled) | 0.2148 s |
+| Epoch progress | 15.94% |
 | Active validators | 662 |
-| Delinquent stake | 0.0840% |
+| Delinquent stake | 0.0355% |
 
 ## Economic pulse
 
 | Metric | Current | 24h change |
 |---|---:|---:|
-| SOL price | 71.64 USD | 5.01% |
-| DeFi TVL | 4.72B USD | — |
-| Stablecoin supply | 13.98B USD | — |
-| DEX volume | 1.54B USD | -7.95% |
-| Protocol fees | 7.26M USD | -7.62% |
+| SOL price | 70.82 USD | -1.50% |
+| DeFi TVL | 4.69B USD | — |
+| Stablecoin supply | 13.95B USD | — |
+| DEX volume | 1.54B USD | -8.79% |
+| Protocol fees | 7.30M USD | -7.09% |
 
 ## Anomaly register
 
 | Severity | Metric | Observation | vs rolling baseline |
 |---|---|---:|---:|
-| CRITICAL | SOL price | 71.64USD | -17.01% |
+| CRITICAL | SOL price | 70.82USD | -17.72% |
+| WARNING | TPS | 1.09Ktx/s | -36.08% |
 
 ## Validator concentration lens
 
 | Vote account | Activated stake | Commission |
 |---|---:|---:|
-| `he1iusun…PauBtk` | 16.93M SOL | 0% |
-| `CcaHc2L4…BzoTN1` | 16.40M SOL | 7% |
-| `3N7s9zXM…eWiD5g` | 12.61M SOL | 0% |
+| `he1iusun…PauBtk` | 16.94M SOL | 0% |
+| `CcaHc2L4…BzoTN1` | 16.43M SOL | 7% |
+| `3N7s9zXM…eWiD5g` | 12.49M SOL | 0% |
 | `8GbwASqd…GJF8iD` | 10.14M SOL | 0% |
-| `51JBzSTU…zgUNAm` | 9.75M SOL | 10% |
-| `CatzoSMU…gZDiqb` | 9.64M SOL | 5% |
-| `26pV97Ce…c53dJx` | 9.20M SOL | 7% |
-| `9QU2QSxh…aM29mF` | 7.94M SOL | 7% |
+| `51JBzSTU…zgUNAm` | 9.79M SOL | 10% |
+| `CatzoSMU…gZDiqb` | 9.62M SOL | 5% |
+| `26pV97Ce…c53dJx` | 9.21M SOL | 7% |
+| `9QU2QSxh…aM29mF` | 7.96M SOL | 7% |
 
 ## Source coverage
 
