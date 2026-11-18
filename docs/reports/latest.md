@@ -1,6 +1,6 @@
 # Solana State Observatory — Snapshot
 
-Generated **2026-11-18T02:53:21Z** · mainnet-beta · health score **100/100 (healthy)**
+Generated **2026-11-18T11:39:51Z** · mainnet-beta · health score **100/100 (healthy)**
 
 > This is an automatically generated diagnostic report, not financial advice. A missing source is shown as unavailable rather than silently replaced with stale data.
 
@@ -9,38 +9,38 @@ Generated **2026-11-18T02:53:21Z** · mainnet-beta · health score **100/100 (he
 | Network | Current |
 |---|---:|
 | RPC health | ok |
-| Throughput (sampled) | 1.91K tx/s |
-| Slot time (sampled) | 0.2138 s |
-| Epoch progress | 75.64% |
-| Active validators | 661 |
-| Delinquent stake | 0.0129% |
+| Throughput (sampled) | 2.36K tx/s |
+| Slot time (sampled) | 0.2144 s |
+| Epoch progress | 9.56% |
+| Active validators | 660 |
+| Delinquent stake | 0.0155% |
 
 ## Economic pulse
 
 | Metric | Current | 24h change |
 |---|---:|---:|
-| SOL price | 74.23 USD | 3.54% |
-| DeFi TVL | 4.82B USD | — |
-| Stablecoin supply | 13.63B USD | — |
-| DEX volume | 1.50B USD | 1.24% |
-| Protocol fees | 8.25M USD | -0.17% |
+| SOL price | 74.49 USD | 1.55% |
+| DeFi TVL | 4.80B USD | — |
+| Stablecoin supply | 13.41B USD | — |
+| DEX volume | 1.51B USD | 2.06% |
+| Protocol fees | 8.20M USD | -1.35% |
 
 ## Anomaly register
 
 | Severity | Metric | Observation | vs rolling baseline |
 |---|---|---:|---:|
-| WARNING | SOL price | 74.23USD | -10.92% |
+| WARNING | SOL price | 74.49USD | -10.35% |
 
 ## Validator concentration lens
 
 | Vote account | Activated stake | Commission |
 |---|---:|---:|
-| `he1iusun…PauBtk` | 16.83M SOL | 0% |
-| `CcaHc2L4…BzoTN1` | 16.44M SOL | 7% |
-| `3N7s9zXM…eWiD5g` | 12.43M SOL | 0% |
-| `8GbwASqd…GJF8iD` | 10.14M SOL | 0% |
-| `51JBzSTU…zgUNAm` | 9.80M SOL | 10% |
-| `CatzoSMU…gZDiqb` | 9.63M SOL | 5% |
+| `he1iusun…PauBtk` | 17.03M SOL | 0% |
+| `CcaHc2L4…BzoTN1` | 16.48M SOL | 7% |
+| `3N7s9zXM…eWiD5g` | 12.42M SOL | 0% |
+| `8GbwASqd…GJF8iD` | 10.30M SOL | 0% |
+| `51JBzSTU…zgUNAm` | 9.82M SOL | 10% |
+| `CatzoSMU…gZDiqb` | 9.57M SOL | 5% |
 | `26pV97Ce…c53dJx` | 9.22M SOL | 7% |
 | `9QU2QSxh…aM29mF` | 7.97M SOL | 7% |
 
